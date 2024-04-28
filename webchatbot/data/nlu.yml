@@ -1,0 +1,113 @@
+﻿version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - bạn ơi cho tôi hỏi cài này  
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Cám ơn bạn nhiều
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: grades
+  examples: |
+    - Làm sao để tính điểm
+    - Cách tính điểm
+    - Tính điểm trên thang điểm 10
+    - Tính điểm trên thang điểm 4
+    - Cách tính điểm trên thang điểm 10
+    - Cách tính điểm trên thang điểm 4
+    - Làm sao để tôi tính điểm của mình
+    - Cách để tính điểm trung bình
+    - Làm sao để tính điểm trung bình 
+    - Cách tính điểm trung bình của học kỳ
+    - Làm sao để tôi tính điểm trung bình của mình?
+    - Tôi vừa học xong học kì 1 mà có một học phần được 4.5 điểm. Vậy tôi có cần thi lại không?   
+- intent: hocphi 
+  examples: |
+    - Học phí của một học phần là bao nhiêu?
+- intent: hocphihcmue
+  examples: |
+    - Học phí của trường đại học sư phạm là bao nhiêu?  

@@ -1,0 +1,48 @@
+﻿version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - grades 
+  - hocphi
+  - hocphihcmue
+
+responses:
+  utter_greet:
+  - text: "Vâng tôi có thể giúp gì cho bạn?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Không có gì! Nếu có bắt cứ thắc mắc gì thì cứ hỏi tôi, tôi sẽ giải đáp giúp bạn."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_grades:
+  - text: "Bạn đang gặp thắc mắc về việc liệu có phải học lại dựa trên điểm số hay không? Nếu bạn sợ rằng bạn bị rớt môn dựa trên điểm số thì không sao cả 
+           vì điểm từ 4,0 - 5,4 trên thang điểm 10 ứng với điểm D trên thang điểm 4; điều này có nghĩa là bạn đã đậu môn học. Nếu bạn muốn học lại
+           để có điểm cao hơn thì bạn có lựa chọn thể học tốt các học phần khác để bù đắp cho học phần hay bạn có thể lựa
+           chọn học cải thiện để có điểm cao hơn. Tuy nhiên việc cải thiện sẽ cần bạn phải bỏ ra một khoản tiền cũng như thời gian và công sức của bản thân. Hãy cân 
+           nhắc và đưa ra quyết định đúng đắn dựa vào mong muốn của mình. "  
+  utter_hocphi:
+  - text: "Số tiền một học phần sẽ dựa trên số tín chỉ của học phần đó. Số tín chỉ của mỗi học phần càng nhiều thì học phí cũng sẽ tăng theo tướng ứng.
+           Tiền học phí cho mỗi tín chỉ sẽ phụ thuộc vào quy định riêng của trường đó."  
+  utter_hocphihcmue:
+  - text: "Học phí của trường đại học Sư Phạm là khoảng 350.000 ngàn cho mỗi tín chỉ."  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

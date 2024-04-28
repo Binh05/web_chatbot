@@ -1,0 +1,26 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  
+- rule: hoi ve diem so
+  steps:
+  - intent: grades  
+  - action: utter_grades
+- rule: hoi ve hoc phi
+  steps: 
+  - intent: hocphi
+  - action: utter_hocphi
+- rule: hoi ve hoc phi hcmue
+  steps: 
+  - intent: hocphihcmue
+  - action: utter_hocphihcmue   
